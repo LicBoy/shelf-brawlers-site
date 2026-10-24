@@ -1,0 +1,9 @@
+:root{--bg:#FFF4E6;--ink:#3D2B4A;--soft:#7A6585;--pink:#FFB6C8;--lav:#C9B2E6;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#1E1628;--ink:#F4ECF8;--soft:#BBA9C9;--card:#2A2036}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Fredoka",system-ui,-apple-system,sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}a{color:inherit;text-decoration-color:var(--pink);text-decoration-thickness:3px}
+header{display:flex;align-items:center;gap:16px;margin-bottom:24px}header img{width:72px;height:72px;border-radius:18px}
+h1{font-size:34px;margin:0;line-height:1.1}h2{margin-top:32px}.sub{color:var(--soft);margin:2px 0 0}
+.card{background:var(--card);border:3px solid var(--lav);border-radius:22px;padding:20px 22px;margin:20px 0}
+nav{display:flex;gap:18px;flex-wrap:wrap;margin:8px 0 0;font-weight:600}.shot{width:100%;max-width:300px;border-radius:24px;display:block;margin:24px auto}
+footer{color:var(--soft);font-size:14px;margin-top:40px}
